@@ -1,0 +1,317 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid rgb(179, 179, 179) ;
+}
+
+.logo a {
+    font-size: 42px;
+    text-decoration: none;
+    color: #333;
+    font-family: "Playball", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 28px;
+    line-height: 32px;
+    font-family: "Lexend Exa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:300;
+    font-style: normal;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #666;
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 40px 0;
+    margin-bottom: 70px;
+    width: Fill (1,344px)px;
+    height: Hug (1,160px)px;
+    padding: 96px 0px 96px 0px;
+    gap: 56px;
+    border: 2px;
+}
+
+.hero-content {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.hero-content h1 {
+    text-align: center;
+    font-size: 120px;
+    line-height: 120px;
+    font-family: "Lexend Exa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.hero-image img {
+    width: 1344px;
+    height: 672px;
+    border-radius: 56px;
+    border: 2px;
+}
+.hero-image{
+    display: flex;
+    justify-content: center;
+    padding: 0px 30px;
+}
+.art-deco-portfolio {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    padding: 40px;
+}
+
+.portfolio-item {
+    text-align: center;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-item h3 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #333;
+    text-align: left;
+    font-family: "Newsreader", serif;
+    font-weight: normal;
+}
+
+.portfolio-item p {
+    font-size: 17px;
+    margin-top: 5px;
+    color: #a8a8a8;
+    text-align: left;
+    font-family: "Newsreader", serif;
+    font-weight: normal;
+}
+.intro {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 80px 40px;
+    text-align: center;
+}
+
+.intro-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.intro h1 {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.4;
+}
+.contact-section {
+    padding: 80px 0;
+    background-color: #f9f9f9;
+}
+
+.contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.contact-title {
+font-size: 36px;
+font-weight: 700;
+margin-bottom: 20px;
+text-align: center;
+}
+
+.contact-info {
+font-size: 18px;
+margin-bottom: 40px;
+text-align: center;
+}
+
+.contact-form {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.form-field {
+width: 100%;
+max-width: 400px;
+padding: 12px 16px;
+margin-bottom: 20px;
+border: 1px solid #ccc;
+border-radius: 4px;
+font-size: 16px;
+}
+
+.submit-btn {
+background-color: #D6DCBC;
+color: #fff;
+border: none;
+border-radius: 4px;
+padding: 12px 24px;
+font-size: 16px;
+cursor: pointer;
+width: 100%;
+max-width: 400px;
+margin-bottom: 10px;
+}
+
+.skip-btn {
+font-size: 16px;
+color: #9DA95D;
+background-color: #9DA95D;
+border: none;
+cursor: pointer;
+}
+.cont3{
+    padding: 6% 20%;
+}
+.cont3 p{
+    text-align: center;
+    font-size: 48px;
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.cont4{
+    margin: 5% 0;
+    padding: 2% 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact{
+    font-size: 40px;
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.cont4 p{
+    font-family: "Newsreader", serif;
+    font-weight: normal;
+    font-size: 24px;
+    font-weight: 400;
+}
+.cont5{
+    margin: 5%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.cont5 h2{
+    font-family: "Roboto", serif;
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 28px;
+}
+.cont5 p{
+    font-family: "Gothic A1", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.otp {
+    color: #AD7C00;
+    width: 40px;
+    height: 50px;
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 0;
+    margin: 0 2px;
+}
+.submit{
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #AD7C00;
+    color: #FAFFFE;
+    padding: 5px 120px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.skip{
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #AD7C00;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+    background-color: white;
+}
+footer{
+    padding: 1% 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer p{
+    font-size: 24px;
+    color: #00000099;
+    font-family: "Roboto", serif;
+    font-weight: normal;
+    font-style: normal;
+}
+.follow{
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: normal;
+    background-color: #F2F6F5;
+    padding: 5px 15px;
+    border-radius: 6px;
+    font-size: 14px;
+}
+.intouch input{
+    background-color: #fcfff1;
+    border: 0px;
+    color: brown;
+}
