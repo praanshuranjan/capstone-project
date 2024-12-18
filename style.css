@@ -315,3 +315,56 @@ footer p{
     border: 0px;
     color: brown;
 }
+.submit{
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #AD7C00;
+    color: #FAFFFE;
+    padding: 5px 120px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.skip{
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #AD7C00;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+    background-color: white;
+}
+footer{
+    padding: 1% 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer p{
+    font-size: 24px;
+    color: #00000099;
+    font-family: "Roboto", serif;
+    font-weight: normal;
+    font-style: normal;
+}
+.follow{
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: normal;
+    background-color: #F2F6F5;
+    padding: 5px 15px;
+    border-radius: 6px;
+    font-size: 14px;
+}
+.intouch input{
+    background-color: #fcfff1;
+    border: 0px;
+    color: brown;
+}
